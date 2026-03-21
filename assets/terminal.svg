@@ -1,0 +1,87 @@
+<svg viewBox="0 0 680 272" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <style>
+    .line { opacity: 0; }
+    .prompt { fill: #3fb950; font-family: 'Courier New', monospace; font-size: 13px; }
+    .cmd    { fill: #7eb8f7; font-family: 'Courier New', monospace; font-size: 13px; }
+    .out    { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 13px; }
+    .dim    { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 13px; }
+    .cursor-blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+  </style>
+
+  <!-- Window chrome -->
+  <rect width="680" height="272" rx="10" fill="#161b22"/>
+  <rect width="680" height="36" rx="10" fill="#21262d"/>
+  <rect y="26" width="680" height="10" fill="#21262d"/>
+
+  <!-- Traffic lights -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Title -->
+  <text x="340" y="23" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#8b949e">bash — prateek@ddu</text>
+
+  <!-- Line 1: whoami command -->
+  <g class="line">
+    <text x="20" y="66" class="prompt">❯ </text>
+    <text x="42" y="66" class="cmd">whoami</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 2: whoami output -->
+  <g class="line">
+    <text x="20" y="90" class="dim"># </text>
+    <text x="36" y="90" class="out">Prateek Baraiya — B.Tech ECE @ Dharmsinh Desai University</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 3: cat cgpa -->
+  <g class="line">
+    <text x="20" y="118" class="prompt">❯ </text>
+    <text x="42" y="118" class="cmd">cat cgpa.txt</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 4: cgpa output -->
+  <g class="line">
+    <text x="20" y="142" class="dim"># </text>
+    <text x="36" y="142" class="out">8.18 / 10  ·  Pre-Final Year (Sem VI)</text>
+    <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 5: cat interests -->
+  <g class="line">
+    <text x="20" y="170" class="prompt">❯ </text>
+    <text x="42" y="170" class="cmd">cat interests.txt</text>
+    <animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 6: interests output -->
+  <g class="line">
+    <text x="20" y="194" class="dim"># </text>
+    <text x="36" y="194" class="out">["Embedded Systems", "Robotics", "CV", "ML on Edge", "IoT"]</text>
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 7: echo status -->
+  <g class="line">
+    <text x="20" y="222" class="prompt">❯ </text>
+    <text x="42" y="222" class="cmd">echo $LOOKING_FOR</text>
+    <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Line 8: status output -->
+  <g class="line">
+    <text x="20" y="246" class="dim"># </text>
+    <text x="36" y="246" class="out">Internship in Embedded / Robotics / CV / IoT 🚀</text>
+    <animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.15s" fill="freeze"/>
+  </g>
+
+  <!-- Blinking cursor -->
+  <g opacity="0">
+    <text x="20" y="270" class="prompt">❯ </text>
+    <rect x="42" y="258" width="8" height="14" fill="#7eb8f7" class="cursor-blink"/>
+    <animate attributeName="opacity" from="0" to="1" begin="6.1s" dur="0.15s" fill="freeze"/>
+  </g>
+</svg>

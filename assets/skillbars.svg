@@ -1,0 +1,55 @@
+<svg viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <style>
+    .label { font-family: 'Courier New', monospace; font-size: 12px; fill: #8b949e; }
+    .pct   { font-family: 'Courier New', monospace; font-size: 11px; fill: #7eb8f7; }
+    .track { fill: #21262d; rx: 4; }
+
+    /* Bar fill animations — each starts at width 0 and expands */
+    .bar1 { animation: grow1 1.2s cubic-bezier(.4,0,.2,1) 0.3s both; }
+    .bar2 { animation: grow2 1.2s cubic-bezier(.4,0,.2,1) 0.5s both; }
+    .bar3 { animation: grow3 1.2s cubic-bezier(.4,0,.2,1) 0.7s both; }
+    .bar4 { animation: grow4 1.2s cubic-bezier(.4,0,.2,1) 0.9s both; }
+    .bar5 { animation: grow5 1.2s cubic-bezier(.4,0,.2,1) 1.1s both; }
+    .bar6 { animation: grow6 1.2s cubic-bezier(.4,0,.2,1) 1.3s both; }
+
+    @keyframes grow1 { from{width:0} to{width:360px} }  /* Embedded C/C++ 80% */
+    @keyframes grow2 { from{width:0} to{width:315px} }  /* Python        70% */
+    @keyframes grow3 { from{width:0} to{width:337px} }  /* ESP32/STM32   75% */
+    @keyframes grow4 { from{width:0} to{width:292px} }  /* Computer Vision 65%*/
+    @keyframes grow5 { from{width:0} to{width:270px} }  /* ML / PyTorch  60% */
+    @keyframes grow6 { from{width:0} to{width:247px} }  /* Robotics / ROS 55%*/
+  </style>
+
+  <!-- Title -->
+  <text x="20" y="22" font-family="'Courier New', monospace" font-size="13" fill="#e6edf3" font-weight="bold">// proficiency</text>
+
+  <!-- Row 1: Embedded C/C++ -->
+  <text x="20"  y="50" class="label">Embedded C / C++</text>
+  <text x="655" y="50" class="pct" text-anchor="end">80%</text>
+  <rect x="20" y="55" width="450" height="8" rx="4" fill="#21262d"/>
+  <rect x="20" y="55" width="0"   height="8" rx="4" fill="#00b4d8" class="bar1"/>
+
+  <!-- Row 2: Python -->
+  <text x="20"  y="86" class="label">Python</text>
+  <text x="655" y="86" class="pct" text-anchor="end">70%</text>
+  <rect x="20" y="91" width="450" height="8" rx="4" fill="#21262d"/>
+  <rect x="20" y="91" width="0"   height="8" rx="4" fill="#3776ab" class="bar2"/>
+
+  <!-- Row 3: ESP32 / STM32 -->
+  <text x="20"  y="122" class="label">ESP32 / STM32 / Arduino</text>
+  <text x="655" y="122" class="pct" text-anchor="end">75%</text>
+  <rect x="20" y="127" width="450" height="8" rx="4" fill="#21262d"/>
+  <rect x="20" y="127" width="0"   height="8" rx="4" fill="#e7352c" class="bar3"/>
+
+  <!-- Row 4: Computer Vision -->
+  <text x="20"  y="158" class="label">Computer Vision / OpenCV</text>
+  <text x="655" y="158" class="pct" text-anchor="end">65%</text>
+  <rect x="20" y="163" width="450" height="8" rx="4" fill="#21262d"/>
+  <rect x="20" y="163" width="0"   height="8" rx="4" fill="#5c3ee8" class="bar4"/>
+
+  <!-- Row 5: ML / PyTorch -->
+  <text x="20"  y="194" class="label">ML / PyTorch / TensorFlow</text>
+  <text x="655" y="194" class="pct" text-anchor="end">60%</text>
+  <rect x="20" y="199" width="450" height="8" rx="4" fill="#21262d"/>
+  <rect x="20" y="199" width="0"   height="8" rx="4" fill="#ee4c2c" class="bar5"/>
+</svg>
