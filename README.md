@@ -21,19 +21,21 @@
 
 ## 👨‍💻 About Me
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Prateek-303/Prateek-303/main/assets/terminal.svg" alt="about me terminal" width="100%"/>
-</div>
+```python
+class Prateek:
+    university  = "Dharmsinh Desai University, Nadiad"
+    degree      = "B.Tech Electronics & Communications Engineering"
+    cgpa        = "8.18 / 10"
+    year        = "Pre-Final Year (Sem VI)"
+    interests   = ["Embedded Systems", "Robotics & Automation",
+                   "Computer Vision", "ML on Edge", "IoT"]
+    currently   = "Building systems that sense, think & move"
+    looking_for = "Internship — Embedded / Robotics / CV / IoT"
+```
 
 ---
 
 ## 🛠️ Skills
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Prateek-303/Prateek-303/main/assets/skillbars.svg" alt="skill proficiency bars" width="100%"/>
-</div>
-
-<br/>
 
 **Languages**
 
@@ -81,10 +83,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Prateek-303/Prateek-303/main/assets/circuit.svg" alt="circuit divider" width="100%"/>
-</div>
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -100,17 +98,6 @@
 
 ---
 
-## 🐍 Contributions
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prateek-303/Prateek-303/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prateek-303/Prateek-303/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Prateek-303/Prateek-303/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
 
 <div align="center">
   <i>🔍 Open to internships in Embedded Systems · Robotics · Computer Vision · IoT</i><br/>
