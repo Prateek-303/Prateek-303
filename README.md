@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=7EB8F7&center=true&vCenter=true&width=650&lines=ECE+Pre-Final+Year+%40+Dharmsinh+Desai+University;STM32+%7C+ESP32+%7C+Raspberry+Pi+%7C+Arduino;Embedded+Control+%2B+Computer+Vision+%2B+ML;Building+systems+that+sense%2C+think+%26+move)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=7EB8F7&center=true&vCenter=true&width=650&lines=ECE+Pre-Final+Year+%40+Dharmsinh+Desai+University;STM32+%7C+ESP32+%7C+Raspberry+Pi+%7C+Arduino;Embedded+Control+%2B+Computer+Vision+%2B+ML;RS-485+Modbus+%7C+RF+Systems+%7C+Robotics;Building+systems+that+sense%2C+think+%26+move)](https://git.io/typing-svg)
 
 </div>
 
@@ -87,21 +87,32 @@ class Prateek:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Prateek-303&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=90e0ef&icon_color=90e0ef&text_color=c9d1d9&border_radius=10" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateek-303&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=90e0ef&text_color=c9d1d9&border_radius=10" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Prateek-303&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7eb8f7&icon_color=7eb8f7&text_color=c9d1d9&border_radius=10&cache_seconds=1800" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateek-303&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7eb8f7&text_color=c9d1d9&border_radius=10&cache_seconds=1800" width="40%" />
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Prateek-303&theme=tokyonight&hide_border=true&background=0d1117&ring=90e0ef&fire=ff6b35&currStreakLabel=90e0ef&border_radius=10" width="55%"/>
+<img src="https://streak-stats.demolab.com?user=Prateek-303&theme=tokyonight&hide_border=true&background=0d1117&ring=7eb8f7&fire=ff6b35&currStreakLabel=7eb8f7&border_radius=10" width="55%"/>
 </div>
 
 ---
 
+## 🐍 Contributions
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prateek-303/Prateek-303/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prateek-303/Prateek-303/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Prateek-303/Prateek-303/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+---
 
 <div align="center">
   <i>🔍 Open to internships in Embedded Systems · Robotics · Computer Vision · IoT</i><br/>
   <i>Let's build something real. 🔩</i>
   <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:1565c0,100:0d1117&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d47a1,50:0a2a6e,100:0d1117&height=100&section=footer" />
 </div>
