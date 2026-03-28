@@ -86,14 +86,7 @@ class Prateek:
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Prateek-303&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7eb8f7&icon_color=7eb8f7&text_color=c9d1d9&border_radius=10&cache_seconds=1800" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateek-303&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7eb8f7&text_color=c9d1d9&border_radius=10&cache_seconds=1800" width="40%" />
-
-</div>
-
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=Prateek-303&theme=tokyonight&hide_border=true&background=0d1117&ring=7eb8f7&fire=ff6b35&currStreakLabel=7eb8f7&border_radius=10" width="55%"/>
+<img src="https://streak-stats.demolab.com?user=Prateek-303&theme=tokyonight&hide_border=true&background=0d1117&ring=7eb8f7&fire=ff6b35&currStreakLabel=7eb8f7&border_radius=10" width="60%"/>
 </div>
 
 ---
